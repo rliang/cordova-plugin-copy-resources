@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-copy-resources" version="0.0.1">
+
+    <name>cordova-plugin-copy-resources</name>
+    <description>Cordova/Phonegap plugin to copy resources at build time.</description>
+    <author email="ricardoliang@gmail.com" href="http://github.com/rliang">
+      Ricardo Liang
+    </author>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <repo>https://github.com/rliang/cordova-plugin-copy-resources.git</repo>
+    <issue>https://github.com/rliang/cordova-plugin-copy-resources/issues</issue>
+
+    <keywords>ecosystem:cordova,cordova,phonegap,resource,resources</keywords>
+
+    <license>MIT</license>
+
+    <hook src="prepare.js" type="after_prepare" />
+</plugin>

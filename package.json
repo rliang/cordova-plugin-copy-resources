@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "name": "cordova-plugin-copy-resources",
+  "cordova_name": "cordova-plugin-copy-resources",
+  "description": "Cordova/Phonegap plugin to copy resources at build time.",
+  "author": "Ricardo Liang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rliang/cordova-plugin-copy-resources.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-copy-resources"
+  },
+  "issue": "https://github.com/rliang/cordova-plugin-copy-resources/issues",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "phonegap",
+    "resource",
+    "resources"
+  ]
+}
